@@ -1,1 +1,1 @@
-print("Good Afternoon, good evening,and good night DUCAMI!")
+print("Good Afternoon, god evening,and good night DUCAMI!")
