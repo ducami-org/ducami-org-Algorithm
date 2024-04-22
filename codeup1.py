@@ -5,4 +5,4 @@ g = 0
 for i in range(0, a):
     if b[i] == c:
         g += 1
-print(g) 
+print(g)
