@@ -1,1 +1,0 @@
-print("Good Afternoon, god evening,and good night DUCAMI!")
