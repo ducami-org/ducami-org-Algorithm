@@ -17,7 +17,7 @@ for i in a:
         print("2222")
         print("   2")
         print("2222")
-        print("2   ")
+        print("2")
         print("2222")
     elif(int(i)==3):
         print("3333")
@@ -33,13 +33,13 @@ for i in a:
         print("   4")
     elif(int(i)==5):
         print("5555")
-        print("5   ")
+        print("5")
         print("5555")
         print("   5")
         print("5555")
     elif(int(i)==6):
         print("6666")
-        print("6   ")
+        print("6")
         print("6666")
         print("6  6")
         print("6666")
