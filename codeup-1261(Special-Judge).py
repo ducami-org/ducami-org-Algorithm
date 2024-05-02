@@ -7,4 +7,3 @@ for i in a:
         break
 if c==0:
     print(0)
-    
