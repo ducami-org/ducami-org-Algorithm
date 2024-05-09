@@ -1,7 +1,10 @@
 #내 답안
 a = list(input().upper())
-for i in range(len(a)):
-    if ord(a[i])
+b = [0]*26
+for i in a:
+    b[ord(i)-65]+=1
+    
+
     
 
 
