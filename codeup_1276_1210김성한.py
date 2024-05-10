@@ -1,6 +1,5 @@
 a = int(input())
-b = list(map(int, input().split()))
-sum = a //2
-print(b[0])
-print(b[sum])
-print(b[-1])
+sum = a
+for i in range(a-1, 0, -1):
+    sum *= i
+print(sum)
