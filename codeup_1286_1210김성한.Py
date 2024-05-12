@@ -1,0 +1,13 @@
+l = []
+a = int(input())
+l.append(a)
+b = int(input())
+l.append(b)
+c = int(input())
+l.append(c)
+d = int(input())
+l.append(d)
+e = int(input())
+l.append(e)
+print(max(l))
+print(min(l))
