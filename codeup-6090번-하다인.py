@@ -1,4 +1,6 @@
-a,b,c,d=map(int,input().split())
-for i in range(d-1):
-    a*=b
+a, m, d, n = map(int,input().split())
+
+for i in range(1, n) :
+  a = a*m+d
+
 print(a)
