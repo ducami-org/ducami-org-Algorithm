@@ -4,7 +4,7 @@ arr = [[0 for j in range(a)] for i in range(a)]
 for i in range(a):
     for j in range(a):
         sum+=1
-        arr[i][j] = sum
+        arr[j][i] = sum
 for i in range(a):
     for j in range(a):
         print(arr[i][j], end=' ')
