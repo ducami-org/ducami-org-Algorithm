@@ -1,7 +1,7 @@
 a=int(input())
 b=list(map(int,input().split()))
-s=0
+s=[]
 for i in b:
-    if i%5==0:
-        s+=i
-print(s)
+    if i%2!=0:
+        s.append(i)
+print(len(s))
