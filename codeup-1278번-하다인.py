@@ -1,2 +1,2 @@
 a=list(input())
-print(len(a))g
+print(len(a))
