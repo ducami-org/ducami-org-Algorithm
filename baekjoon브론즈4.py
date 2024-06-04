@@ -51,8 +51,14 @@
 
 # print(min(b))
 
-#baekjoon11365 !밀비 급일!
+# n = int(input())
+# for i in range(n*2-1):
+#     for i in range():
 
+n = int(input())
 
-
- 
+for i in range(n*2+1,0,-2):
+    if i == n*2:
+        print(f"{'*'*(n*2-1):^{n*2-1}}")
+    else:
+        print(f"{'*'*(i):^{n*2}}")
