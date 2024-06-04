@@ -1,0 +1,7 @@
+def hap(num):
+    sum = 1
+    for i in range(1, num+1):
+        sum*=i
+    print(sum)
+n = int(input())
+hap(n)
