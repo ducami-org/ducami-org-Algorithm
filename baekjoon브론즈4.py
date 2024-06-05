@@ -54,31 +54,6 @@
 # n = int(input())
 # for i in range(n*2-1):
 #     for i in range():
+# n = int(input())
 
-n = int(input())
 
-for i in range(n*2+1,0,-2):
-    if  i == n*2+1:
-        continue
-    if i == n*2:
-        print(f"{'*'*(n*2-1):^{n*2-1}}")
-    else:
-        print(f"{'*'*(i):^{n*2-1}}")
-
-for i in range(1,n*2,2):
-    if i == 1:
-        continue
-    else:
-        print(f"{'*'*i:^{n*2-1}}")
-print("=======================")
-print('''*********
- *******
-  *****
-   ***
-    *
-   ***
-  *****
- *******
-*********''')
-
-        
