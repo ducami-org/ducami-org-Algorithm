@@ -1,5 +1,4 @@
-n = input()
-if n == 'love':
-    print(f"I {n} you.")
-else:
-    pass
+li = list(input().split())
+
+for i in range(len(li)):
+    print(li[i],end='')
