@@ -1,3 +1,4 @@
+#설탕 과자 뽑기
 m=[]
 h,w=map(int,input().split())
 for i in range(h+1):
