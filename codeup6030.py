@@ -1,2 +1,4 @@
-a = ord(input())
-print(a)
+# a = ord(input())
+# print(a)
+
+
