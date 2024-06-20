@@ -1,0 +1,10 @@
+arr=[]
+n=int(input())
+
+for i in range(n):
+    a,d,g=map(int,input().split())
+    if a==d+g:
+        arr.append((a*(d+g))*2)
+    else:
+        arr.append((a*(d+g)))
+print(max(arr))
