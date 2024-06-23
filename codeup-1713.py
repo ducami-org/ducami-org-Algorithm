@@ -1,5 +1,8 @@
-a = input()
-if(a=='IOI'):
-    print('IOI is the International Olympiad in Informatics.')
-else:
-    print('I don\'t care.')
+a,b = map(int,input().split())
+total=0
+for i in range(a,b+1):
+    if(i%3==0 and i%4!=0):
+        total +=i
+    if(i%4==0 and i%3!=0):
+        total -=i
+print(total)
