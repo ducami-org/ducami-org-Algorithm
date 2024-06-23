@@ -27,4 +27,3 @@ for i in range(num):
                         break
                 
 print(cnt)
-출처: https://datalabbit.tistory.com/143 [간토끼 DataMining Lab:티스토리]
